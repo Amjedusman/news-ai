@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.lock-wscript
+
+# Dependency directories
+node_modules/
+# This ensures node_modules are ignored in both client and server subdirectories
+**/node_modules/
+
+# Build output
+build/
+dist/
+# This ensures build/ directories are ignored in both client and server subdirectories
+**/build/
+**/dist/
+
+# Environment variables
+.env
+.env.local
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# IDE files and directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
